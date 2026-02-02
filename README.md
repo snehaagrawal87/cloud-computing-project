@@ -17,7 +17,9 @@ This system generates synthetic patient data, processes sensor readings, and use
 - **Sensor Aggregator**: Cloud Function that aggregates 5-minute windows of sensor data
 - **Health Predictor**: Cloud Run service that runs ML predictions on aggregated data
 - **Predictions Writer**: Cloud Function that writes predictions to BigQuery
-- **Vitals Writer**: Cloud Function that writes vitals and predictions to BigQuery for dashboards[https://raghuveer9303.github.io/mediguard-dashboard/#/]
+- **Vitals Writer**: Cloud Function that writes vitals and predictions to BigQuery for
+
+## [Dashboards](https://raghuveer9303.github.io/mediguard-dashboard/#/)
 
 ## Components
 
